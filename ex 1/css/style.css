@@ -1,0 +1,15 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* grid-auto-rows: minmax(100px, auto); */
+    gap: 1rem;
+}
+
+.wrapper>div {
+    /* padding: 1rem; */
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
